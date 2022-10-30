@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulaire</title>
+</head>
+<body>
+<h1>Formulaire exo 21</h1>
+<form action="Mon formulaire.php" method="post">
+    <div>
+        <label for="texte">Votre texte</label>
+        <textarea name="message" id="texte"></textarea>
+    </div>
+    <div>
+        <label for="password">Votre mot de passe</label>
+        <input type="password" id="password" name="mot de passe">
+    </div>
+    <div>
+        <label for="date">Choisir la date</label>
+        <input type="date" id="date" name="date">
+    </div>
+    <div>
+        <label for="color">Couleur</label>
+        <input type="color" id="color" name="color">
+    </div>  
+    <div>
+        <label for="select">Choisir</label>
+        <select name="selection" id="select">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select>
+    </div>
+    <div>
+        <button type="submit">Envoyer</button>
+        <button type="reset">Effacer formulaire</button>
+    </div>
+    <div>
+        <label for="sexe">Votre sexe:</label>
+        <input type="radio" id="sexe" name="sexe" value="homme" checked> Homme
+        <input type="radio" id="sexe" name="sexe" value="femme"> Femme
+        <input type="radio" id="sexe" name="sexe" value="fomme"> Fomme
+    </div>
+    <div>
+        <h3>Aimez vous les pâtes?</h3>
+        <span>Plusieurs réponses possibles:</span>
+        <label for="oui">oui</label>
+        <input type="checkbox" name="oui" id="oui" value="oui" checked>
+        <label for="non">non</label>
+        <input type="checkbox" name="non" id="non" value="non">
+        <label for="parfois">parfois</label>
+        <input type="checkbox" name="parfois" id="parfois" value="parfois">
+    </div>
+</form>
+</body>
+</html>
